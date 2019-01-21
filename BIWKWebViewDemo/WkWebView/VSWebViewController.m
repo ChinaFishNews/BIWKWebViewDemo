@@ -74,7 +74,8 @@
     [super viewDidLayoutSubviews];
     
     UIView *webView = kWebKitAvailable ? self.wkWebView : self.webView;
-    webView.frame = self.view.bounds;
+//    webView.frame = self.view.bounds;
+    webView.frame = CGRectMake(0, 150, self.view.bounds.size.width, self.view.bounds.size.height);
     
     _progressView.frame = CGRectMake(0, 0, webView.bounds.size.width, 5.f);
 }

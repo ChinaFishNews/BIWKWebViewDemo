@@ -21,6 +21,8 @@
 		73AE4C3221F5D6600063556B /* UIWebView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2621F5D6600063556B /* UIWebView+Category.m */; };
 		73AE4C3321F5D6600063556B /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2821F5D6600063556B /* NSObject+Category.m */; };
 		73AE4C3421F5D6600063556B /* VSWebViewController+JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2921F5D6600063556B /* VSWebViewController+JavaScript.m */; };
+		73FE411321F6225A00A4B04E /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 73FE411121F6225A00A4B04E /* test.js */; };
+		73FE411421F6225A00A4B04E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 73FE411221F6225A00A4B04E /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		73AE4C2821F5D6600063556B /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
 		73AE4C2921F5D6600063556B /* VSWebViewController+JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VSWebViewController+JavaScript.m"; sourceTree = "<group>"; };
 		73AE4C2B21F5D6600063556B /* VSWebViewController+Cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VSWebViewController+Cookie.h"; sourceTree = "<group>"; };
+		73FE411121F6225A00A4B04E /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		73FE411221F6225A00A4B04E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				73AE4BBE21F5D2100063556B /* AppDelegate.m */,
 				73AE4BC021F5D2100063556B /* ViewController.h */,
 				73AE4BC121F5D2100063556B /* ViewController.m */,
+				73FE411221F6225A00A4B04E /* index.html */,
+				73FE411121F6225A00A4B04E /* test.js */,
 				73AE4BC321F5D2100063556B /* Main.storyboard */,
 				73AE4BC621F5D2110063556B /* Assets.xcassets */,
 				73AE4BC821F5D2110063556B /* LaunchScreen.storyboard */,
@@ -180,8 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FE411321F6225A00A4B04E /* test.js in Resources */,
 				73AE4BCA21F5D2110063556B /* LaunchScreen.storyboard in Resources */,
 				73AE4BC721F5D2110063556B /* Assets.xcassets in Resources */,
+				73FE411421F6225A00A4B04E /* index.html in Resources */,
 				73AE4C3121F5D6600063556B /* JSBundle.bundle in Resources */,
 				73AE4BC521F5D2100063556B /* Main.storyboard in Resources */,
 			);
@@ -345,14 +353,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BIWKWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.developer.baidu.BIWKWebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -361,14 +372,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BIWKWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.developer.baidu.BIWKWebViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
