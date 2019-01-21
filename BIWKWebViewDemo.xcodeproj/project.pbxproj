@@ -13,6 +13,14 @@
 		73AE4BC721F5D2110063556B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AE4BC621F5D2110063556B /* Assets.xcassets */; };
 		73AE4BCA21F5D2110063556B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73AE4BC821F5D2110063556B /* LaunchScreen.storyboard */; };
 		73AE4BCD21F5D2110063556B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4BCC21F5D2110063556B /* main.m */; };
+		73AE4C2D21F5D6600063556B /* WKWebView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C1B21F5D6600063556B /* WKWebView+Category.m */; };
+		73AE4C2E21F5D6600063556B /* VSWebViewController+UIGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C1C21F5D6600063556B /* VSWebViewController+UIGestureRecognizer.m */; };
+		73AE4C2F21F5D6600063556B /* VSWebViewController+Cookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2121F5D6600063556B /* VSWebViewController+Cookie.m */; };
+		73AE4C3021F5D6600063556B /* VSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2221F5D6600063556B /* VSWebViewController.m */; };
+		73AE4C3121F5D6600063556B /* JSBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73AE4C2421F5D6600063556B /* JSBundle.bundle */; };
+		73AE4C3221F5D6600063556B /* UIWebView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2621F5D6600063556B /* UIWebView+Category.m */; };
+		73AE4C3321F5D6600063556B /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2821F5D6600063556B /* NSObject+Category.m */; };
+		73AE4C3421F5D6600063556B /* VSWebViewController+JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AE4C2921F5D6600063556B /* VSWebViewController+JavaScript.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,24 @@
 		73AE4BC921F5D2110063556B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73AE4BCB21F5D2110063556B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73AE4BCC21F5D2110063556B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73AE4C1721F5D6600063556B /* VSWebViewControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSWebViewControllerHeader.h; sourceTree = "<group>"; };
+		73AE4C1821F5D6600063556B /* VSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSWebViewController.h; sourceTree = "<group>"; };
+		73AE4C1921F5D6600063556B /* VSEvaluateJavaScriptError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSEvaluateJavaScriptError.h; sourceTree = "<group>"; };
+		73AE4C1A21F5D6600063556B /* UIWebView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Category.h"; sourceTree = "<group>"; };
+		73AE4C1B21F5D6600063556B /* WKWebView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Category.m"; sourceTree = "<group>"; };
+		73AE4C1C21F5D6600063556B /* VSWebViewController+UIGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VSWebViewController+UIGestureRecognizer.m"; sourceTree = "<group>"; };
+		73AE4C1E21F5D6600063556B /* VSWebViewController+JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VSWebViewController+JavaScript.h"; sourceTree = "<group>"; };
+		73AE4C1F21F5D6600063556B /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		73AE4C2121F5D6600063556B /* VSWebViewController+Cookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VSWebViewController+Cookie.m"; sourceTree = "<group>"; };
+		73AE4C2221F5D6600063556B /* VSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSWebViewController.m; sourceTree = "<group>"; };
+		73AE4C2321F5D6600063556B /* VSWebViewController+UIGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VSWebViewController+UIGestureRecognizer.h"; sourceTree = "<group>"; };
+		73AE4C2421F5D6600063556B /* JSBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSBundle.bundle; sourceTree = "<group>"; };
+		73AE4C2521F5D6600063556B /* WKWebView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Category.h"; sourceTree = "<group>"; };
+		73AE4C2621F5D6600063556B /* UIWebView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Category.m"; sourceTree = "<group>"; };
+		73AE4C2721F5D6600063556B /* VSHTTPCookieRuntimeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSHTTPCookieRuntimeSupport.h; sourceTree = "<group>"; };
+		73AE4C2821F5D6600063556B /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+		73AE4C2921F5D6600063556B /* VSWebViewController+JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VSWebViewController+JavaScript.m"; sourceTree = "<group>"; };
+		73AE4C2B21F5D6600063556B /* VSWebViewController+Cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VSWebViewController+Cookie.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 		73AE4BBC21F5D2100063556B /* BIWKWebViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				73AE4C1621F5D6600063556B /* WkWebView */,
 				73AE4BBD21F5D2100063556B /* AppDelegate.h */,
 				73AE4BBE21F5D2100063556B /* AppDelegate.m */,
 				73AE4BC021F5D2100063556B /* ViewController.h */,
@@ -69,6 +96,31 @@
 				73AE4BCC21F5D2110063556B /* main.m */,
 			);
 			path = BIWKWebViewDemo;
+			sourceTree = "<group>";
+		};
+		73AE4C1621F5D6600063556B /* WkWebView */ = {
+			isa = PBXGroup;
+			children = (
+				73AE4C2421F5D6600063556B /* JSBundle.bundle */,
+				73AE4C1721F5D6600063556B /* VSWebViewControllerHeader.h */,
+				73AE4C2721F5D6600063556B /* VSHTTPCookieRuntimeSupport.h */,
+				73AE4C1921F5D6600063556B /* VSEvaluateJavaScriptError.h */,
+				73AE4C1821F5D6600063556B /* VSWebViewController.h */,
+				73AE4C2221F5D6600063556B /* VSWebViewController.m */,
+				73AE4C1C21F5D6600063556B /* VSWebViewController+UIGestureRecognizer.m */,
+				73AE4C2321F5D6600063556B /* VSWebViewController+UIGestureRecognizer.h */,
+				73AE4C1E21F5D6600063556B /* VSWebViewController+JavaScript.h */,
+				73AE4C2921F5D6600063556B /* VSWebViewController+JavaScript.m */,
+				73AE4C2B21F5D6600063556B /* VSWebViewController+Cookie.h */,
+				73AE4C2121F5D6600063556B /* VSWebViewController+Cookie.m */,
+				73AE4C1F21F5D6600063556B /* NSObject+Category.h */,
+				73AE4C2821F5D6600063556B /* NSObject+Category.m */,
+				73AE4C1A21F5D6600063556B /* UIWebView+Category.h */,
+				73AE4C2621F5D6600063556B /* UIWebView+Category.m */,
+				73AE4C1B21F5D6600063556B /* WKWebView+Category.m */,
+				73AE4C2521F5D6600063556B /* WKWebView+Category.h */,
+			);
+			path = WkWebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +182,7 @@
 			files = (
 				73AE4BCA21F5D2110063556B /* LaunchScreen.storyboard in Resources */,
 				73AE4BC721F5D2110063556B /* Assets.xcassets in Resources */,
+				73AE4C3121F5D6600063556B /* JSBundle.bundle in Resources */,
 				73AE4BC521F5D2100063556B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AE4C2F21F5D6600063556B /* VSWebViewController+Cookie.m in Sources */,
 				73AE4BC221F5D2100063556B /* ViewController.m in Sources */,
+				73AE4C3021F5D6600063556B /* VSWebViewController.m in Sources */,
 				73AE4BCD21F5D2110063556B /* main.m in Sources */,
 				73AE4BBF21F5D2100063556B /* AppDelegate.m in Sources */,
+				73AE4C3321F5D6600063556B /* NSObject+Category.m in Sources */,
+				73AE4C3421F5D6600063556B /* VSWebViewController+JavaScript.m in Sources */,
+				73AE4C2E21F5D6600063556B /* VSWebViewController+UIGestureRecognizer.m in Sources */,
+				73AE4C2D21F5D6600063556B /* WKWebView+Category.m in Sources */,
+				73AE4C3221F5D6600063556B /* UIWebView+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

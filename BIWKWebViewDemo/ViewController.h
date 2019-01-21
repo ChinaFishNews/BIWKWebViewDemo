@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VSWebViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : VSWebViewController
 
 
 @end
